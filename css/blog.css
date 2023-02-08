@@ -1,0 +1,40 @@
+:root{
+    --main-bg-color: rgb(210, 145, 145);
+    --font-1: 'Kanit', sans-serif;
+    --font-2: 'Prompt', sans-serif;
+}
+.post-img{
+    height: 354px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-img img{
+    width: 80vw;
+}
+.content-blog-post{
+    color: brown;
+    font-family: var(--font-2);
+}
+.content-blog{
+    text-align: center;
+}
+.blogpost-meta{
+    display: flex;
+    justify-content: space-between;
+}
+.author-info{
+    margin: 12px 2px;
+    
+}
+.author-info div{
+    padding: 4px 12px;
+    font-family: var(--font-1);
+    font-weight: 600;
+}
+.social{
+    cursor: pointer;
+    padding-right: 53px;
+    align-self: center;
+}

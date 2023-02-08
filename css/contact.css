@@ -1,0 +1,27 @@
+.contact-form input{
+    width: 100vh;
+    /* margin-left: 180px; */
+    margin-top: 55px;
+    padding: 5px 24px;
+    border: 2px solid rgb(94, 171, 219);
+    border-radius: 5px;
+}
+.contact-form textarea{
+    width: 100vh;
+    height: 4vh;
+    /* margin-left: 180px; */
+    margin-top: 55px;
+    padding:5px 24px;
+    border: 2px solid rgb(94, 171, 219);
+    border-radius: 5px;
+}
+.btn-1{
+    margin: 38px 4px;
+padding: 5px 19px;
+border: 2px solid skyblue;
+border-radius: 10px;
+cursor: pointer;
+}
+.btn-1:hover{
+    background-color: red;
+}

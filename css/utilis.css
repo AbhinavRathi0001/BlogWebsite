@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&display=swap');
+
+:root {
+    --main-bg-color: rgb(192, 128, 128);
+    --font-1: 'Kanit', sans-serif;
+    --font-2: 'Prompt', sans-serif;
+}
+.font1{
+    font-family: var(--font-1);
+}
+.font2{
+    font-family: var(--font-2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 80vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+.my-2{
+    margin: 0 12px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 50%;
+    font-size: 16px;
+    border: 2px solid lightgray;
+    cursor: pointer;
+    transition: all 1.5sec ease-in-out;
+}
+.btn:hover{
+    background-color: var(--main-bg-color);
+}
+.form-input{
+    padding: 3px 105px 4px 6px;
+    font-size: 16px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
